@@ -3,9 +3,9 @@ class Reny < Formula
 
   desc "Awesome python package reny"
   homepage "https://pypi.org/project/reny/"
-  url "https://files.pythonhosted.org/packages/73/a1/a7e539c0945adb3aa53c56dc4bad220e2b5191e9b66c8be78b4579a855dc/reny-1.0.10.tar.gz"
-  sha256 "fc021ae72b342e1ae199ae8e5cf7dd31149f6b70af520561c6b34bb4395f6cee"
-  license "MIT" # Update if needed
+  url "https://files.pythonhosted.org/packages/d2/ba/d5d9f2c52e77295d373e91d0fc5062d18954f972227d47a60883efced158/reny-1.0.11.tar.gz"
+  sha256 "5aa35ac0bc0111199b5d02aaf2c34ed85d3d67938b3a92820c8072df7b334000"
+  license "GPL-2.0-or-later"
 
   depends_on "python@3.14"
 
@@ -19,6 +19,6 @@ class Reny < Formula
   end
 
   test do
-    system "#{bin}/reny", "--help"
+    system bin/"reny", "--help"
   end
 end
