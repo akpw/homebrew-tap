@@ -3,8 +3,8 @@ class Reny < Formula
 
   desc "Awesome python package reny"
   homepage "https://pypi.org/project/reny/"
-  url "https://files.pythonhosted.org/packages/d2/ba/d5d9f2c52e77295d373e91d0fc5062d18954f972227d47a60883efced158/reny-1.0.11.tar.gz"
-  sha256 "5aa35ac0bc0111199b5d02aaf2c34ed85d3d67938b3a92820c8072df7b334000"
+  url "https://files.pythonhosted.org/packages/source/r/reny/reny-1.0.16.tar.gz"
+  sha256 "c56a724ef20bdf48daefb8dab574646fb0143d731db956c2d88a390b3dea782c"
   license "GPL-2.0-or-later"
 
   depends_on "python@3.14"
