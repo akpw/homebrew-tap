@@ -1,10 +1,10 @@
 class Reny < Formula
   include Language::Python::Virtualenv
 
-  desc "Awesome python package reny"
-  homepage "https://pypi.org/project/reny/"
-  url "https://files.pythonhosted.org/packages/source/r/reny/reny-1.0.16.tar.gz"
-  sha256 "c56a724ef20bdf48daefb8dab574646fb0143d731db956c2d88a390b3dea782c"
+  desc "Filesystem visualizer, batch renamer, and directory organizer"
+  homepage "https://github.com/akpw/reny"
+  url "https://files.pythonhosted.org/packages/7a/b7/53e4cb7106866563ac97fb6b009482d6ed2660ddc065f49450e66b35364d/reny-1.1.0.tar.gz"
+  sha256 "f72e6ced8bb2e545a0e4907a017f48682395f473c5076531e2243a81524534e2"
   license "GPL-2.0-or-later"
 
   depends_on "python@3.14"
