@@ -3,8 +3,8 @@ class Reny < Formula
 
   desc "Filesystem visualizer, batch renamer, and directory organizer"
   homepage "https://github.com/akpw/reny"
-  url "https://files.pythonhosted.org/packages/7a/b7/53e4cb7106866563ac97fb6b009482d6ed2660ddc065f49450e66b35364d/reny-1.1.0.tar.gz"
-  sha256 "f72e6ced8bb2e545a0e4907a017f48682395f473c5076531e2243a81524534e2"
+  url "https://files.pythonhosted.org/packages/3c/f2/a2107702418d62b12c9411c6157aa1ccdcbcd199dbb5a87040736cdeb55e/reny-1.1.1.tar.gz"
+  sha256 "53fa3a9aa3ef3abb8b2a308d316140ee3b61ec641ad4f6a0a185800a8e525d2d"
   license "GPL-2.0-or-later"
 
   depends_on "python@3.14"
